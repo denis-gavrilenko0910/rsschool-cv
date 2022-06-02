@@ -60,7 +60,7 @@ June 2020 - October 2021
 
 ## Education
 
-**Kharkov State Academy of Culture | Ukraine**
+**Kharkov State Academy of Culture** | **Ukraine**
 September 2005 - June 2010 | Kharkov
 
 - Management, manager

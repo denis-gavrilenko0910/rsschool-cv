@@ -1,0 +1,24 @@
+.header {
+  margin: 0 auto;
+  max-width: 80%;
+}
+.nav_bar__menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main {
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.photo {
+  display: block;
+  width: 340px;
+}
+.section_wrapper {
+  width: 100%;
+}
+.section_title {
+  text-align: center;
+}

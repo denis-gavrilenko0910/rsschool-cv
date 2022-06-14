@@ -4,56 +4,285 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Denis</title>
+    <title>Denis G</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
   <body id="body" class="body">
-    <header id="header" class="header">
-      <div class="logo_wraper">
-        <h1 id="logo" class="logo">Denis G</h1>
-        <h2 id="qualification" class="qualification">front-end developer</h2>
-      </div>
-      <nav id="main_nav_bar" class="main_nav_bar">
-        <ul id="nav_bar__menu" class="nav_bar__menu ul">
-          <li class="nav_bar__menu__list li">
-            <a class="nav_bar__menu__link link" href="#">Summary</a>
-          </li>
-          <li class="nav_bar__menu__list li">
-            <a class="nav_bar__menu__link link" href="#">Projects</a>
-          </li>
-          <li class="nav_bar__menu__list li">
-            <a class="nav_bar__menu__link link" href="#">Experience</a>
-          </li>
-          <li class="nav_bar__menu__list li">
-            <a class="nav_bar__menu__link link" href="#">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main id="main" class="main">
-      <aside id="aside" class="aside">
-        <img
-          class="photo"
-          src="./img/tester_vs_developer.jpg"
-          alt="junior front-end developer"
-        />
-      </aside>
-      <div class="section_wrapper">
-        <section id="summary" class="section summary">
-          <h3 class="section_title">Summary</h3>
-        </section>
-        <section id="projects" class="section projects">
-          <h3 class="section_title">Projects</h3>
-        </section>
-        <section id="experience" class="section experience">
-          <h3 class="section_title">Experience</h3>
-        </section>
-        <section id="contacts" class="section contacts">
-          <h3 class="section_title">Contacts</h3>
-        </section>
-      </div>
-    </main>
-    <footer id="footer" class="footer"></footer>
+    <div id="container" class="container">
+      <header id="header" class="header">
+        <div class="logo_wraper">
+          <h1 id="logo" class="logo">Denis G</h1>
+          <h2 id="qualification" class="qualification title">
+            junior front-end developer
+          </h2>
+        </div>
+        <nav id="main_nav_bar" class="main_nav_bar">
+          <ul id="nav_bar__menu" class="nav_bar__menu ul">
+            <li class="nav_bar__menu__list list">
+              <a class="nav_bar__menu__link link" href="#summary">Summary</a>
+            </li>
+            <li class="nav_bar__menu__list list">
+              <a class="nav_bar__menu__link link" href="#projects">Projects</a>
+            </li>
+            <li class="nav_bar__menu__list list">
+              <a class="nav_bar__menu__link link" href="#experience"
+                >Experience</a
+              >
+            </li>
+            <li class="nav_bar__menu__list list">
+              <a class="nav_bar__menu__link link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main" class="main">
+        <aside id="aside" class="aside">
+          <div class="image_wrapper">
+            <img
+              class="photo"
+              src="./img/denis.jpg"
+              alt="Denis - junior front-end developer"
+            />
+          </div>
+          <h2 id="contacts" class="contacts_title title">Contacts</h2>
+          <ul id="contacts_menu" class="contacts_menu ul">
+            <li class="contacts_menu__list list">
+              <a
+                class="contacts_menu__link link"
+                href="mailto:denys.gavrylenko@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+                >Email me</a
+              >
+            </li>
+            <li class="contacts_menu__list list">
+              <a
+                class="contacts_menu__link link"
+                href="https://t.me/Denis_1087"
+                rel="noreferrer"
+                target="_blank"
+                >Telegram</a
+              >
+            </li>
+          </ul>
+          <h2 class="tech_skills__title title">Tech Skills:</h2>
+          <ul id="tech_skills" class="tech_skills ul">
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">HTML5</p>
+            </li>
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">CSS3</p>
+            </li>
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">SASS</p>
+            </li>
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">GIT</p>
+            </li>
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">JavaScript</p>
+            </li>
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">Webpack</p>
+            </li>
+            <li class="tech_skills__list list">
+              <p class="tech_skill_name p">Figma</p>
+            </li>
+          </ul>
+
+          <h2 class="english title">English:</h2>
+          <p>B2</p>
+        </aside>
+        <div class="section_wrapper">
+          <section id="summary" class="section summary">
+            <h2 class="summary_section__title title">Summary</h2>
+            <p class="summury_info p">
+              Self-motivated and results-driven person with a passion for
+              software development. Fast learner with analytical skills. Highly
+              adaptable to rapidly changing environments and challenging tasks.
+              A motivated team player with the ability to adapt quickly.
+            </p>
+          </section>
+          <section id="projects" class="section projects">
+            <h2 class="projects_section__title title">Projects</h2>
+            <ul id="projects_menu" class="projects_menu ul">
+              <li class="projects_menu__list list">
+                <a
+                  href="https://denis-gavrilenko0910.github.io/goit-markup-hw-08/"
+                  class="projects_menu__link link"
+                  target="_blank"
+                  >Web Studio</a
+                >
+                <p class="project_description p">
+                  A solo project created on the given design as a task in IT
+                  school. The technologies I used while creating it: HTML5,
+                  SASS, JavaScript.
+                </p>
+              </li>
+              <li class="projects_menu__list list">
+                <a
+                  href="https://denis-gavrilenko0910.github.io/weather-app-main/"
+                  class="projects_menu__link link"
+                  target="_blank"
+                  >OpenWeather widget</a
+                >
+                <p class="project_description p">
+                  The software part of the project was done by me ( a solo
+                  project created on the OpenWeather database). The technologies
+                  I used while creating it: JavaScript HTML5 CSS3 Webpack
+                </p>
+              </li>
+              <li class="projects_menu__list list">
+                <a
+                  href="https://denis-gavrilenko0910.github.io/goit-js-hw-08-gallery/"
+                  class="projects_menu__link link"
+                  target="_blank"
+                  >Image Gallery</a
+                >
+                <p class="project_description p">
+                  This is a school task where I practiced building links with
+                  “prevent default” method of the Event interface to open images
+                  in a full size with no page refresh. The image gallery created
+                  using JavaScript HTML5 CSS3.
+                </p>
+              </li>
+              <li class="projects_menu__list list">
+                <a
+                  href="https://denis-gavrilenko0910.github.io/goit-js-hw-11-timer/"
+                  class="projects_menu__link link"
+                  target="_blank"
+                  >Timer</a
+                >
+                <p class="project_description p">
+                  In this task, I needed to create a timer. And as an extra
+                  task, I've made the device itself using CSS.
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section id="experience" class="section experience">
+            <h2 class="experience_section__title title">Experience</h2>
+            <ul id="experince_menu" class="experince_menu ul">
+              <li class="experince_menu__list list">
+                <h3 class="position_title title">
+                  Technical Support Consultant (L1 & L2)
+                </h3>
+                <span class="duration">June 2021 till present</span>
+                <p class="experince_details p">
+                  Technical support agent and partly junior front-end dev of the
+                  website builder for macOS.
+                </p>
+                <span class="responsibilities">My responsibilities are:</span>
+                <ul class="responsibilities_menu ul">
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Providing technical support for customers of the website
+                      builder;
+                    </p>
+                  </li>
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Receiving calls and answering to emails.
+                    </p>
+                  </li>
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Handling any issues which may happened while customers:
+                      creating their sites, transferring their domains to our
+                      hosting, publishing issues through FTP e.t.c.
+                    </p>
+                  </li>
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Widgets development which can be used under this platform.
+                      Used stack: JavaScript, HTML5, CSS3.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="experince_menu__list list">
+                <h3 class="position_title title">
+                  Senior Cabin Crew Member: E-195, B737, B767 B 777
+                </h3>
+                <span class="duration">May 2015 - July 2020</span>
+                <p class="experince_details p"></p>
+                <span class="responsibilities">My responsibilities are:</span>
+                <ul class="responsibilities_menu ul">
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Providing safety for the passengers on board during the
+                      flight.
+                    </p>
+                  </li>
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Crew control and work/service organization
+                    </p>
+                  </li>
+                  <li class="responsibilities_menu__list list">
+                    <p class="responsibilities_menu__description p">
+                      Interaction with ground services to provide everything
+                      necessary to perform a flight at base and non-base
+                      airports
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section id="education" class="section educaion">
+            <h2 class="education_title title">
+              Kharkov State Academy of Culture
+            </h2>
+
+            <span class="duration">September 2005 - June 2010 | Kharkiv</span>
+            <p class="specialization">Management, manager</p>
+          </section>
+        </div>
+      </main>
+
+      <footer id="footer" class="footer">
+        <nav id="footer_nav" class="footer_nav">
+          <ul class="footer_menu ul">
+            <li class="footer_menu__list list">
+              <a
+                class="footer_menu__link link"
+                href="https://github.com/denis-gavrilenko0910"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg class="github_icon icon" width="30" height="30">
+                  <use href="./img/svg/sprite.svg#github_icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_menu__list list">
+              <a
+                class="footer_menu__link link"
+                href="https://rs.school/js/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg class="rs_school_js_icon icon" width="70" height="70">
+                  <use href="./img/svg/sprite.svg#rs_school_js_icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_menu__list list">
+              <p class="date">June 2022</p>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
